@@ -25,4 +25,5 @@ group :development do
   # Use pry over irb for rails console
   gem 'pry-rails'
   gem 'byebug'
+  gem 'rename'
 end
