@@ -43,6 +43,6 @@ class CredentialsController < ApplicationController
   private
 
   def credential_params
-    params.require(:credential).permit(:website, :user_name, :email, :password)
+    params.require(:credential).permit(:website, :user_name, :password)
   end
 end
