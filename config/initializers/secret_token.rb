@@ -10,14 +10,12 @@
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
 
-# Although this is not needed for an api-only application, rails4 
-# requires secret_key_base or secret_token to be defined, otherwise an 
+# Although this is not needed for an api-only application, rails4
+# requires secret_key_base or secret_token to be defined, otherwise an
 # error is raised.
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-<<<<<<< HEAD
-SmartGroceryBackend::Application.config.secret_token = '4cab606e73bf2c5f5d5230633fa3d5ffb02dd802c418115dd3ba123ae0b138b36fd931f051893e8f0ab80147671abd881ae4bcf7914212fb496c36a9bd596268'
-=======
+
 WhatsMyPasswordBackend::Application.config.secret_token = '4cab606e73bf2c5f5d5230633fa3d5ffb02dd802c418115dd3ba123ae0b138b36fd931f051893e8f0ab80147671abd881ae4bcf7914212fb496c36a9bd596268'
->>>>>>> development
+
