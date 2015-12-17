@@ -21,6 +21,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Help with JSON serialization
 gem 'active_model_serializers'
 
+# Gem file to rename api
+gem 'rename'
+
 group :development do
   # Use pry over irb for rails console
   gem 'pry-rails'

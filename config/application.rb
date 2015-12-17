@@ -15,7 +15,11 @@ require "action_view/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module SmartGroceryBackend
+=======
+module WhatsMyPasswordBackend
+>>>>>>> development
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -33,7 +37,7 @@ module SmartGroceryBackend
     config.active_record.raise_in_transactional_callbacks = true
 
     # Cross-Origin Resource Sharing
-    config.middleware.use Rack::Cors do
+    config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
         resource '*',
